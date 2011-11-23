@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "magesa"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Daudi Amani"]
-  s.date = "2011-11-22"
+  s.date = "2011-11-23"
   s.description = "bin/wkhtmltopdf-amd64 accessible in heroku as a gem"
   s.email = "dsaronin@gmail.com"
   s.executables = ["wkhtmltopdf-amd64"]
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "bin/wkhtmltopdf-amd64",
     "lib/magesa.rb",
+    "magesa.gemspec",
     "pkg/magesa-0.1.0.gem",
     "test/helper.rb",
     "test/test_magesa.rb"
