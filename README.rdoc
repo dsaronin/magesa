@@ -1,0 +1,12 @@
+= magesa
+
+bin/wkhtmltopdf-amd64 for heroku applications
+purpose is to avoid cluttering up the app repository with 11MB of binary
+
+= reference
+See Jordan Brough's excellent sample app: heroku-pdf 
+https://github.com/jordan-brough/heroku-pdf
+from which the wkhtmltopdf-amd64 binary is taken.
+
+ 
+
