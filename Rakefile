@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/dsaronin/magesa"
   gem.license = "MIT"
   gem.summary = %Q{bin/wkhtmltopdf-amd64 accessible in heroku as a gem}
-  gem.description = %Q{bin/wkhtmltopdf-amd64 accessible in heroku as a gem}
+  gem.description = %Q{an easier way to access wkhtmltopdf-amd64 in heroku rather than putting it in the app}
   gem.email = "dsaronin@gmail.com"
   gem.authors = ["Daudi Amani"]
   # dependencies defined in Gemfile
