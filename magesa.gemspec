@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "magesa"
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Daudi Amani"]
@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
     "lib/magesa.rb",
     "magesa.gemspec",
     "pkg/magesa-0.1.0.gem",
+    "pkg/magesa-0.1.1.gem",
     "test/helper.rb",
     "test/test_magesa.rb"
   ]
