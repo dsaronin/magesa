@@ -75,6 +75,9 @@ capybara-*html
 .rvmrc
 .rvmrc.*
 
+#gem
+pkg/
+
 # other
 .loadpath
 all.js
